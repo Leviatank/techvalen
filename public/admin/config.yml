@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: Leviatank/techvalen
+  name: git-gateway
+  branch: main
   branch: main
   base_url: https://auth.netlify-cms.org
 
