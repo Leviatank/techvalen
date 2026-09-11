@@ -9,4 +9,8 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  publicDir: 'public', // ✅ aggiungi questa riga
+  build: {
+    outDir: 'dist', // ✅ assicura che la build finisca in dist
+  },
 });
