@@ -1,1 +1,18 @@
+backend:
+  name: github
+  repo: Leviatank/techvalen
+  branch: main
 
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "articoli"
+    label: "Articoli"
+    folder: "src/articoli"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Contenuto", name: "body", widget: "markdown" }
