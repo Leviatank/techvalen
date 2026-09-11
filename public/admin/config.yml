@@ -2,6 +2,7 @@ backend:
   name: github
   repo: Leviatank/techvalen
   branch: main
+  base_url: https://auth.netlify-cms.org
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
